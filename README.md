@@ -53,9 +53,9 @@ Problem Set 4 contains 10 exercises, each of which will be written in separate m
 
 ### Exercise 1 (`surroundMe`)
 
-`surroundMe` shoud be a publicly available  method that accepts a pair of `String`s as input, and returns a `String` as output.
+`surroundMe` should be a publicly available  method that accepts a pair of `String`s as input, and returns a `String` as output.
 
-Given two `String`s, `out`and `in`, return a new `String` built by surrounding `in` with the first and last two characters of `out`. Return `null` if the following specifcations are not met.
+Given two `String`s, `out`and `in`, return a new `String` built by surrounding `in` with the first and last two characters of `out`. Return `null` if the following specifications are not met.
 * `out` and `in` must not be `null`
 * `out` must be exactly 4 characters
 * `in` must be exactly 3 characters
@@ -73,7 +73,7 @@ surroundMe("<<>>", null) returns null
 
 `endsMeet` shoud be a publicly available method that accepts a `String` and an `int` as input, and returns a `String` as output.
 
-Given a `String`, `str`, and an `int`, `n`, return a new `String` built by combining the first `n` and last `n` characters of `str`. Return `null` if the following specifcations are not met.
+Given a `String`, `str`, and an `int`, `n`, return a new `String` built by combining the first `n` and last `n` characters of `str`. Return `null` if the following specifications are not met.
 * `str` must not be `null`
 * `str` must be between 1 and 10 characters (inclusive)
 * `n` must be a positive integer between 1 and the length of `str`
